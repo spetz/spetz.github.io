@@ -8,7 +8,7 @@ The links from my talk at [Rustikon 2025](https://www.rustikon.dev/talk/lets-bui
 
 - [slides](https://slides.com/piotrgankiewicz/rustikon-2025)
 - [discord](https://discord.gg/C5Sux5NcRa) community
-- [apache/iggy](https:github.com/apache/iggy/) repository
+- [apache/iggy](https://github.com/apache/iggy/) repository
 - [iggy-rs](https://github.com/iggy-rs/) organization, moving to ASF monorepo
 - [benchmarks.iggy.rs](https://benchmarks.iggy.rs/) platform, based on this [repository](https://github.com/iggy-rs/iggy-bench-dashboard)
 - [iggy](https://crates.io/crates/iggy) SDK crate (the other ones can be found under [iggy-rs](https://github.com/iggy-rs/))
