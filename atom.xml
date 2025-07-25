@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Piotr Gankiewicz (spetz)</title>
+    <link rel="self" type="application/atom+xml" href="https://spetz.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://spetz.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-07-30T00:00:00+00:00</updated>
+    <id>https://spetz.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Rust Poland Meetup 2025</title>
+        <published>2025-07-30T00:00:00+00:00</published>
+        <updated>2025-07-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://spetz.github.io/posts/rust-poland-meetup-2025/"/>
+        <id>https://spetz.github.io/posts/rust-poland-meetup-2025/</id>
+        
+        <content type="html" xml:base="https://spetz.github.io/posts/rust-poland-meetup-2025/">&lt;p&gt;The links from my talk at &lt;a href=&quot;https:&#x2F;&#x2F;www.meetup.com&#x2F;rust-poland-meetup&#x2F;events&#x2F;308832371&#x2F;&quot;&gt;Rust Poland Meetup 2025&lt;&#x2F;a&gt; in my hometown Kraków :)&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;slides.com&#x2F;piotrgankiewicz&#x2F;rust-poland-meetup-2025&quot;&gt;slides&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;discord.gg&#x2F;C5Sux5NcRa&quot;&gt;discord&lt;&#x2F;a&gt; community&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;apache&#x2F;iggy&#x2F;&quot;&gt;apache&#x2F;iggy&lt;&#x2F;a&gt; repository&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;benchmarks.iggy.apache.org&quot;&gt;benchmarks.iggy.apache.org&lt;&#x2F;a&gt; benchmarking platform&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;iggy.apache.org&#x2F;&quot;&gt;iggy.apache.org&lt;&#x2F;a&gt; landing page&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;hub.docker.com&#x2F;r&#x2F;iggyrs&#x2F;iggy&quot;&gt;iggyrs&#x2F;iggy&lt;&#x2F;a&gt; Docker images, moved to &lt;a href=&quot;https:&#x2F;&#x2F;hub.docker.com&#x2F;r&#x2F;apache&#x2F;iggy&quot;&gt;apache&#x2F;iggy&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;iggy.apache.org&#x2F;blogs&#x2F;&quot;&gt;iggy.apache.org&#x2F;blogs&lt;&#x2F;a&gt; blog posts&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;iggy.apache.org&#x2F;docs&#x2F;&quot;&gt;iggy.apache.org&#x2F;docs&lt;&#x2F;a&gt; documentation&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;compio.rs&#x2F;&quot;&gt;compio&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;bytedance&#x2F;monoio&quot;&gt;monoio&lt;&#x2F;a&gt; io_uring &amp;amp; thread-per-core runtimes&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;programming&#x2F;comments&#x2F;cg1ip8&#x2F;fsyncgate_errors_on_fsync_are_unrecovarable&#x2F;&quot;&gt;fsyncgate&lt;&#x2F;a&gt; errors&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;transactional.blog&#x2F;how-to-learn&#x2F;disk-io&quot;&gt;disk-io&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;iggy.apache.org&#x2F;blogs&#x2F;2025&#x2F;05&#x2F;08&#x2F;zero-copy-deserialization&quot;&gt;zero-copy (de)serialization&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Craft-IT 2025</title>
+        <published>2025-05-31T00:00:00+00:00</published>
+        <updated>2025-05-31T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://spetz.github.io/posts/craft-it-2025/"/>
+        <id>https://spetz.github.io/posts/craft-it-2025/</id>
+        
+        <content type="html" xml:base="https://spetz.github.io/posts/craft-it-2025/">&lt;p&gt;The links from my talk at &lt;a href=&quot;https:&#x2F;&#x2F;craft-it.pl&#x2F;#session-216&quot;&gt;Craft-IT 2025&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;slides.com&#x2F;piotrgankiewicz&#x2F;craft-it-2025&quot;&gt;slides&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;discord.gg&#x2F;C5Sux5NcRa&quot;&gt;discord&lt;&#x2F;a&gt; community&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;apache&#x2F;iggy&#x2F;&quot;&gt;apache&#x2F;iggy&lt;&#x2F;a&gt; repository&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;iggy-rs&#x2F;&quot;&gt;iggy-rs&lt;&#x2F;a&gt; organization, moving to ASF monorepo&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;benchmarks.iggy.rs&#x2F;&quot;&gt;benchmarks.iggy.rs&lt;&#x2F;a&gt; platform&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;iggy.rs&#x2F;&quot;&gt;iggy.rs&lt;&#x2F;a&gt; landing, moving to &lt;a href=&quot;https:&#x2F;&#x2F;iggy.apache.org&#x2F;&quot;&gt;iggy.apache.org&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;hub.docker.com&#x2F;r&#x2F;iggyrs&#x2F;iggy&quot;&gt;iggyrs&#x2F;iggy&lt;&#x2F;a&gt; Docker images, moving to &lt;a href=&quot;https:&#x2F;&#x2F;hub.docker.com&#x2F;r&#x2F;apache&#x2F;iggy&quot;&gt;apache&#x2F;iggy&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;blog.iggy.rs&quot;&gt;blog.iggy.rs&lt;&#x2F;a&gt; blog, moving to &lt;a href=&quot;https:&#x2F;&#x2F;iggy.apache.org&#x2F;blogs&#x2F;&quot;&gt;iggy.apache.org&#x2F;blogs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.iggy.rs&quot;&gt;docs.iggy.rs&lt;&#x2F;a&gt; documentation, moving to &lt;a href=&quot;https:&#x2F;&#x2F;iggy.apache.org&#x2F;docs&#x2F;&quot;&gt;iggy.apache.org&#x2F;docs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;bytedance&#x2F;monoio&quot;&gt;monoio&lt;&#x2F;a&gt; io_uring &amp;amp; thread-per-core runtime&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;programming&#x2F;comments&#x2F;cg1ip8&#x2F;fsyncgate_errors_on_fsync_are_unrecovarable&#x2F;&quot;&gt;fsyncgate&lt;&#x2F;a&gt; errors&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;transactional.blog&#x2F;how-to-learn&#x2F;disk-io&quot;&gt;disk-io&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;iggy.apache.org&#x2F;blogs&#x2F;2025&#x2F;05&#x2F;08&#x2F;zero-copy-deserialization&quot;&gt;zero-copy (de)serialization&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Rustikon 2025</title>
+        <published>2025-03-26T00:00:00+00:00</published>
+        <updated>2025-03-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://spetz.github.io/posts/rustikon-2025/"/>
+        <id>https://spetz.github.io/posts/rustikon-2025/</id>
+        
+        <content type="html" xml:base="https://spetz.github.io/posts/rustikon-2025/">&lt;p&gt;The links from my talk at &lt;a href=&quot;https:&#x2F;&#x2F;www.rustikon.dev&#x2F;talk&#x2F;lets-build-our-own-message-streaming-platform&quot;&gt;Rustikon 2025&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;slides.com&#x2F;piotrgankiewicz&#x2F;rustikon-2025&quot;&gt;slides&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;discord.gg&#x2F;C5Sux5NcRa&quot;&gt;discord&lt;&#x2F;a&gt; community&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;apache&#x2F;iggy&#x2F;&quot;&gt;apache&#x2F;iggy&lt;&#x2F;a&gt; repository&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;iggy-rs&#x2F;&quot;&gt;iggy-rs&lt;&#x2F;a&gt; organization, moving to ASF monorepo&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;benchmarks.iggy.rs&#x2F;&quot;&gt;benchmarks.iggy.rs&lt;&#x2F;a&gt; platform, based on this &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;iggy-rs&#x2F;iggy-bench-dashboard&quot;&gt;repository&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;iggy&quot;&gt;iggy&lt;&#x2F;a&gt; SDK crate (the other ones can be found under &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;iggy-rs&#x2F;&quot;&gt;iggy-rs&lt;&#x2F;a&gt;)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;iggy.rs&#x2F;&quot;&gt;iggy.rs&lt;&#x2F;a&gt; landing, moving to &lt;a href=&quot;https:&#x2F;&#x2F;iggy.apache.org&#x2F;&quot;&gt;iggy.apache.org&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;hub.docker.com&#x2F;r&#x2F;iggyrs&#x2F;iggy&quot;&gt;iggyrs&#x2F;iggy&lt;&#x2F;a&gt; Docker images, moving to &lt;a href=&quot;https:&#x2F;&#x2F;hub.docker.com&#x2F;r&#x2F;apache&#x2F;iggy&quot;&gt;apache&#x2F;iggy&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;blog.iggy.rs&quot;&gt;blog.iggy.rs&lt;&#x2F;a&gt; blog, moving to &lt;a href=&quot;https:&#x2F;&#x2F;iggy.apache.org&#x2F;blogs&#x2F;&quot;&gt;iggy.apache.org&#x2F;blogs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.iggy.rs&quot;&gt;docs.iggy.rs&lt;&#x2F;a&gt; documentation, moving to &lt;a href=&quot;https:&#x2F;&#x2F;iggy.apache.org&#x2F;docs&#x2F;&quot;&gt;iggy.apache.org&#x2F;docs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;bytedance&#x2F;monoio&quot;&gt;monoio&lt;&#x2F;a&gt; io_uring &amp;amp; thread-per-core runtime&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;programming&#x2F;comments&#x2F;cg1ip8&#x2F;fsyncgate_errors_on_fsync_are_unrecovarable&#x2F;&quot;&gt;fsyncgate&lt;&#x2F;a&gt; errors&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
