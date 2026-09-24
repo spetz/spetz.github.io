@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Piotr Gankiewicz (spetz)</title>
+    <subtitle>Founder &amp; CTO of LaserData, Apache Iggy PMC, and its original creator. Building the next-gen, sub-millisecond latency message streaming infrastructure.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://spetz.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://spetz.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-10-21T00:00:00+00:00</updated>
+    <id>https://spetz.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>P99 CONF 2026</title>
+        <published>2026-10-21T00:00:00+00:00</published>
+        <updated>2026-10-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Piotr Gankiewicz
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://spetz.github.io/posts/p99-conf-2026/"/>
+        <id>https://spetz.github.io/posts/p99-conf-2026/</id>
+        
+        <content type="html" xml:base="https://spetz.github.io/posts/p99-conf-2026/">&lt;p&gt;I&#39;m speaking at &lt;a rel=&quot;external&quot; href=&quot;https://p99conf.io/&quot;&gt;P99 CONF 2026&lt;/a&gt;, the online conference about low latency and high performance engineering, on October 21-22.&lt;/p&gt;
+&lt;p&gt;The talk is an engineering playbook told through &lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/&quot;&gt;Apache Iggy&lt;/a&gt;: thread-per-core, shared-nothing, io_uring, zero-copy and Viewstamped Replication, and how these choices keep tail latency low and predictable at high throughput.&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>4Developers Katowice 2026</title>
+        <published>2026-10-08T00:00:00+00:00</published>
+        <updated>2026-10-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Piotr Gankiewicz
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://spetz.github.io/posts/4developers-katowice-2026/"/>
+        <id>https://spetz.github.io/posts/4developers-katowice-2026/</id>
+        
+        <content type="html" xml:base="https://spetz.github.io/posts/4developers-katowice-2026/">&lt;p&gt;I&#39;m speaking at &lt;a rel=&quot;external&quot; href=&quot;https://4developers.org.pl/lecture-katowice-2026/#id=107884&quot;&gt;4Developers Katowice 2026&lt;/a&gt; on October 8.&lt;/p&gt;
+&lt;p&gt;The talk is an engineering playbook told through &lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/&quot;&gt;Apache Iggy&lt;/a&gt;: thread-per-core, shared-nothing, io_uring, zero-copy and Viewstamped Replication. Where the milliseconds hide in a message streaming platform, and what it takes to get them back.&lt;/p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Rustmeet 2026</title>
+        <published>2026-06-13T00:00:00+00:00</published>
+        <updated>2026-06-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Piotr Gankiewicz
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://spetz.github.io/posts/rustmeet-2026/"/>
+        <id>https://spetz.github.io/posts/rustmeet-2026/</id>
+        
+        <content type="html" xml:base="https://spetz.github.io/posts/rustmeet-2026/">&lt;p&gt;The links from my talk at &lt;a rel=&quot;external&quot; href=&quot;https://rustmeet.eu/&quot;&gt;Rustmeet 2026&lt;/a&gt; in Kraków.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/C5Sux5NcRa&quot;&gt;discord&lt;/a&gt; community&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/apache/iggy/&quot;&gt;apache/iggy&lt;/a&gt; repository&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/&quot;&gt;iggy.apache.org&lt;/a&gt; landing page&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://benchmarks.iggy.apache.org&quot;&gt;benchmarks.iggy.apache.org&lt;/a&gt; benchmarking platform&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/docs/&quot;&gt;iggy.apache.org/docs&lt;/a&gt; documentation&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/blogs/&quot;&gt;iggy.apache.org/blogs&lt;/a&gt; blog posts&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://laserdata.com&quot;&gt;laserdata.com&lt;/a&gt; LaserData&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://compio.rs/&quot;&gt;compio&lt;/a&gt;, &lt;a rel=&quot;external&quot; href=&quot;https://github.com/bytedance/monoio&quot;&gt;monoio&lt;/a&gt; io_uring &amp;amp; thread-per-core runtimes&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://man7.org/linux/man-pages/man7/io_uring.7.html&quot;&gt;io_uring&lt;/a&gt; man page&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://wiki.postgresql.org/wiki/Fsync_Errors&quot;&gt;fsyncgate&lt;/a&gt; errors&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://pmg.csail.mit.edu/papers/vr-revisited.pdf&quot;&gt;Viewstamped Replication Revisited&lt;/a&gt; paper&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/blogs/2025/05/08/zero-copy-deserialization&quot;&gt;zero-copy (de)serialization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Rust Poland Meetup 2025</title>
+        <published>2025-07-30T00:00:00+00:00</published>
+        <updated>2025-07-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Piotr Gankiewicz
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://spetz.github.io/posts/rust-poland-meetup-2025/"/>
+        <id>https://spetz.github.io/posts/rust-poland-meetup-2025/</id>
+        
+        <content type="html" xml:base="https://spetz.github.io/posts/rust-poland-meetup-2025/">&lt;p&gt;The links from my talk at &lt;a rel=&quot;external&quot; href=&quot;https://www.meetup.com/rust-poland-meetup/events/308832371/&quot;&gt;Rust Poland Meetup 2025&lt;/a&gt; in my hometown Kraków :)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/C5Sux5NcRa&quot;&gt;discord&lt;/a&gt; community&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/apache/iggy/&quot;&gt;apache/iggy&lt;/a&gt; repository&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://benchmarks.iggy.apache.org&quot;&gt;benchmarks.iggy.apache.org&lt;/a&gt; benchmarking platform&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/&quot;&gt;iggy.apache.org&lt;/a&gt; landing page&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://hub.docker.com/r/iggyrs/iggy&quot;&gt;iggyrs/iggy&lt;/a&gt; Docker images, moved to &lt;a rel=&quot;external&quot; href=&quot;https://hub.docker.com/r/apache/iggy&quot;&gt;apache/iggy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/blogs/&quot;&gt;iggy.apache.org/blogs&lt;/a&gt; blog posts&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/docs/&quot;&gt;iggy.apache.org/docs&lt;/a&gt; documentation&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://compio.rs/&quot;&gt;compio&lt;/a&gt;, &lt;a rel=&quot;external&quot; href=&quot;https://github.com/bytedance/monoio&quot;&gt;monoio&lt;/a&gt; io_uring &amp;amp; thread-per-core runtimes&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.reddit.com/r/programming/comments/cg1ip8/fsyncgate_errors_on_fsync_are_unrecovarable/&quot;&gt;fsyncgate&lt;/a&gt; errors&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://transactional.blog/how-to-learn/disk-io&quot;&gt;disk-io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/blogs/2025/05/08/zero-copy-deserialization&quot;&gt;zero-copy (de)serialization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Craft-IT 2025</title>
+        <published>2025-05-31T00:00:00+00:00</published>
+        <updated>2025-05-31T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Piotr Gankiewicz
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://spetz.github.io/posts/craft-it-2025/"/>
+        <id>https://spetz.github.io/posts/craft-it-2025/</id>
+        
+        <content type="html" xml:base="https://spetz.github.io/posts/craft-it-2025/">&lt;p&gt;The links from my talk at &lt;a rel=&quot;external&quot; href=&quot;https://craft-it.pl/#session-216&quot;&gt;Craft-IT 2025&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/C5Sux5NcRa&quot;&gt;discord&lt;/a&gt; community&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/apache/iggy/&quot;&gt;apache/iggy&lt;/a&gt; repository&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/iggy-rs/&quot;&gt;iggy-rs&lt;/a&gt; organization, moving to ASF monorepo&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://benchmarks.iggy.rs/&quot;&gt;benchmarks.iggy.rs&lt;/a&gt; platform&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://iggy.rs/&quot;&gt;iggy.rs&lt;/a&gt; landing, moving to &lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/&quot;&gt;iggy.apache.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://hub.docker.com/r/iggyrs/iggy&quot;&gt;iggyrs/iggy&lt;/a&gt; Docker images, moving to &lt;a rel=&quot;external&quot; href=&quot;https://hub.docker.com/r/apache/iggy&quot;&gt;apache/iggy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://blog.iggy.rs&quot;&gt;blog.iggy.rs&lt;/a&gt; blog, moving to &lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/blogs/&quot;&gt;iggy.apache.org/blogs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://docs.iggy.rs&quot;&gt;docs.iggy.rs&lt;/a&gt; documentation, moving to &lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/docs/&quot;&gt;iggy.apache.org/docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/bytedance/monoio&quot;&gt;monoio&lt;/a&gt; io_uring &amp;amp; thread-per-core runtime&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.reddit.com/r/programming/comments/cg1ip8/fsyncgate_errors_on_fsync_are_unrecovarable/&quot;&gt;fsyncgate&lt;/a&gt; errors&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://transactional.blog/how-to-learn/disk-io&quot;&gt;disk-io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/blogs/2025/05/08/zero-copy-deserialization&quot;&gt;zero-copy (de)serialization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Rustikon 2025</title>
+        <published>2025-03-26T00:00:00+00:00</published>
+        <updated>2025-03-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Piotr Gankiewicz
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://spetz.github.io/posts/rustikon-2025/"/>
+        <id>https://spetz.github.io/posts/rustikon-2025/</id>
+        
+        <content type="html" xml:base="https://spetz.github.io/posts/rustikon-2025/">&lt;p&gt;The links from my talk at &lt;a rel=&quot;external&quot; href=&quot;https://www.rustikon.dev/talk/lets-build-our-own-message-streaming-platform&quot;&gt;Rustikon 2025&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://discord.gg/C5Sux5NcRa&quot;&gt;discord&lt;/a&gt; community&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/apache/iggy/&quot;&gt;apache/iggy&lt;/a&gt; repository&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/iggy-rs/&quot;&gt;iggy-rs&lt;/a&gt; organization, moving to ASF monorepo&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://benchmarks.iggy.rs/&quot;&gt;benchmarks.iggy.rs&lt;/a&gt; platform, based on this &lt;a rel=&quot;external&quot; href=&quot;https://github.com/iggy-rs/iggy-bench-dashboard&quot;&gt;repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://crates.io/crates/iggy&quot;&gt;iggy&lt;/a&gt; SDK crate (the other ones can be found under &lt;a rel=&quot;external&quot; href=&quot;https://github.com/iggy-rs/&quot;&gt;iggy-rs&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://iggy.rs/&quot;&gt;iggy.rs&lt;/a&gt; landing, moving to &lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/&quot;&gt;iggy.apache.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://hub.docker.com/r/iggyrs/iggy&quot;&gt;iggyrs/iggy&lt;/a&gt; Docker images, moving to &lt;a rel=&quot;external&quot; href=&quot;https://hub.docker.com/r/apache/iggy&quot;&gt;apache/iggy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://blog.iggy.rs&quot;&gt;blog.iggy.rs&lt;/a&gt; blog, moving to &lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/blogs/&quot;&gt;iggy.apache.org/blogs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://docs.iggy.rs&quot;&gt;docs.iggy.rs&lt;/a&gt; documentation, moving to &lt;a rel=&quot;external&quot; href=&quot;https://iggy.apache.org/docs/&quot;&gt;iggy.apache.org/docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/bytedance/monoio&quot;&gt;monoio&lt;/a&gt; io_uring &amp;amp; thread-per-core runtime&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.reddit.com/r/programming/comments/cg1ip8/fsyncgate_errors_on_fsync_are_unrecovarable/&quot;&gt;fsyncgate&lt;/a&gt; errors&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        
+    </entry>
+</feed>
