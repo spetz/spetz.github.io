@@ -1,12 +1,17 @@
 +++
 title = "Rust Poland Meetup 2025"
 date = "2025-07-30"
-author = "Piotr Gankiewicz"
+authors = ["Piotr Gankiewicz"]
+
+[extra]
+talk = "Let's build our own message streaming platform"
+event_url = "https://www.meetup.com/rust-poland-meetup/events/308832371/"
+location = "Kraków, Poland"
+slides = "https://slides.com/piotrgankiewicz/rust-poland-meetup-2025"
 +++
 
 The links from my talk at [Rust Poland Meetup 2025](https://www.meetup.com/rust-poland-meetup/events/308832371/) in my hometown Kraków :)
 
-- [slides](https://slides.com/piotrgankiewicz/rust-poland-meetup-2025)
 - [discord](https://discord.gg/C5Sux5NcRa) community
 - [apache/iggy](https://github.com/apache/iggy/) repository
 - [benchmarks.iggy.apache.org](https://benchmarks.iggy.apache.org) benchmarking platform

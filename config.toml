@@ -1,14 +1,14 @@
 base_url = "https://spetz.github.io"
 title = "Piotr Gankiewicz (spetz)"
+description = "Founder & CTO of LaserData, Apache Iggy PMC, and its original creator. Building the next-gen, sub-millisecond latency message streaming infrastructure."
 build_search_index = false
 generate_feeds = true
 compile_sass = true
 minify_html = true
 theme = "apollo"
 
-[markdown]
-highlight_code = true
-highlight_theme = "ayu-dark"
+[markdown.highlighting]
+theme = "ayu-dark"
 
 [extra]
 author = "Piotr Gankiewicz"
@@ -20,15 +20,21 @@ theme = "toggle"              # light, dark, auto, toggle
 # mathjax_dollar_inline_enable = true
 
 menu = [
+    { name = "talks", url = "/posts/" },
 ]
 
 socials = [
-    { name = "github", url = "https://github.com/spetz", icon = "github" },
-    { name = "twitter", url = "https://twitter.com/spetzu", icon = "twitter" },
-    { name = "linkedin", url = "https://www.linkedin.com/in/piotrgankiewicz/", icon = "linkedin" },
+    { name = "GitHub", url = "https://github.com/spetz", icon = "github" },
+    { name = "Twitter", url = "https://x.com/spetzu", icon = "x-twitter" },
+    { name = "LinkedIn", url = "https://www.linkedin.com/in/piotrgankiewicz/", icon = "linkedin" },
 ]
 
-custom_css = []
+roles = [
+    { title = "Founder & CTO", org = "LaserData", url = "https://laserdata.com", logo_height = 30, logo_light = "img/laserdata-on-light.svg", logo_dark = "img/laserdata-on-dark.svg" },
+    { title = "Creator & PMC", org = "Apache Iggy", url = "https://iggy.apache.org", logo_height = 52, logo_light = "img/iggy-on-light.png", logo_dark = "img/iggy-on-dark.png" },
+]
+
+stylesheets = ["custom.css"]
 
 [extra.analytics]
 enabled = false

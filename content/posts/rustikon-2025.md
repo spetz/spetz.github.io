@@ -1,12 +1,17 @@
 +++
 title = "Rustikon 2025"
 date = "2025-03-26"
-author = "Piotr Gankiewicz"
+authors = ["Piotr Gankiewicz"]
+
+[extra]
+talk = "Let's build our own message streaming platform"
+event_url = "https://www.rustikon.dev/talk/lets-build-our-own-message-streaming-platform"
+location = "Warsaw, Poland"
+slides = "https://slides.com/piotrgankiewicz/rustikon-2025"
 +++
 
 The links from my talk at [Rustikon 2025](https://www.rustikon.dev/talk/lets-build-our-own-message-streaming-platform).
 
-- [slides](https://slides.com/piotrgankiewicz/rustikon-2025)
 - [discord](https://discord.gg/C5Sux5NcRa) community
 - [apache/iggy](https://github.com/apache/iggy/) repository
 - [iggy-rs](https://github.com/iggy-rs/) organization, moving to ASF monorepo

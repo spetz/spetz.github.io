@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+    <main class="talk-page">
+        <article>
+            <a class="back" href="{{ get_url(path='posts/') }}">← All talks</a>
+
+            <div class="page-header">{{ page.title }}<span class="primary-color">.</span></div>
+            {% if page.extra?.talk %}<p class="talk-page-title">{{ page.extra.talk }}</p>{% endif %}
+
+            <div class="talk-meta talk-page-meta">
+                <time datetime="{{ page.date }}">{{<talks.when page={page} />}}</time>
+                {% if page.extra?.location %}<span>{{ page.extra.location }}</span>{% endif %}
+                {{<talks.links page={page} />}}
+                {% if page.extra?.upcoming %}<span class="badge">upcoming</span>{% endif %}
+            </div>
+
+            <section class="body">
+                {{ page.content | safe }}
+            </section>
+        </article>
+    </main>
+{% endblock main_content %}

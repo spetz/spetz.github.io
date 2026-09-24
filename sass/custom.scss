@@ -1,0 +1,402 @@
+// Site overrides on top of the apollo theme: blue accent matching the
+// LaserData / Apache Iggy decks, plus a minimal homepage and talk lists.
+
+:root {
+  // The theme's value is missing a comma, which invalidates the whole list.
+  --header-font: "ZedDisplayFtl", "Space Grotesk", "Helvetica", sans-serif;
+}
+
+:root.light {
+  --primary-color: #0078d4;
+  --hover-color: #fff;
+}
+
+:root.dark {
+  --primary-color: #5ba8d9;
+  --hover-color: #0b1620;
+}
+
+// Theme-aware images: show the variant that matches the active theme.
+.only-dark {
+  display: none;
+}
+
+:root.dark {
+  .only-light {
+    display: none;
+  }
+
+  .only-dark {
+    display: inline-block;
+  }
+}
+
+// Quiet links: no theme underline block, colour change on hover only.
+%quiet-link {
+  border-bottom: none;
+  color: inherit;
+  transition: color 0.15s;
+
+  &:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+  }
+}
+
+/* Hero */
+
+.home {
+  margin-top: 4rem;
+}
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.25rem;
+}
+
+.hero-photo {
+  flex-shrink: 0;
+  width: 112px;
+  height: 112px;
+  border: none;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 0;
+  max-width: 36rem;
+}
+
+.hero-name {
+  font-family: var(--header-font);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.hero-bio {
+  margin: 0.8rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+/* Roles: one strip, equal columns, logos optically matched via --logo-h */
+
+.roles {
+  display: grid;
+  // minmax(0, 1fr) lets a column shrink below the logo's natural width
+  // instead of overflowing the viewport on narrow phones.
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  margin: 1.5rem 0 1.25rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.role {
+  @extend %quiet-link;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.7rem;
+
+  img {
+    height: var(--logo-h);
+    width: auto;
+    max-width: 100%;
+    // Keep the aspect ratio when max-width kicks in on narrow screens.
+    object-fit: contain;
+    object-position: left center;
+    border: none;
+    opacity: 0.85;
+    transition: opacity 0.15s;
+  }
+
+  &:hover img {
+    opacity: 1;
+  }
+}
+
+.role-logo {
+  display: flex;
+  align-items: center;
+  height: 56px;
+}
+
+.role-title {
+  color: var(--text-1);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: color 0.15s;
+}
+
+.role:hover .role-title {
+  color: var(--primary-color);
+}
+
+/* Socials */
+
+.hero-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.hero-link {
+  @extend %quiet-link;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  // Taller hit area for touch without changing the visual layout.
+  padding: 0.35rem 0;
+  color: var(--text-1);
+  font-size: 0.8rem;
+
+  img {
+    width: 14px;
+    height: 14px;
+    border: none;
+    opacity: 0.7;
+  }
+
+  &:hover img {
+    opacity: 1;
+  }
+}
+
+:root.dark .hero-link img {
+  filter: invert(1);
+}
+
+/* Talk lists */
+
+.block-title {
+  margin: 3.5rem 0 0.5rem;
+  font-family: var(--header-font);
+  font-size: 1.3rem;
+}
+
+.talks-page .talks-block:first-of-type .block-title {
+  margin-top: 1.5rem;
+}
+
+.talks-intro {
+  color: var(--text-1);
+}
+
+.talks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.talk {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 1.5rem;
+  padding: 1rem 0;
+
+  & + & {
+    border-top: 1px solid var(--border-color);
+  }
+
+  > time {
+    padding-top: 0.2rem;
+    color: var(--text-1);
+    font-size: 0.8rem;
+  }
+}
+
+.talk-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.talk-event {
+  @extend %quiet-link;
+  font-family: var(--header-font);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.talk-title {
+  margin-top: 0.1rem;
+  font-size: 0.88rem;
+}
+
+.talk-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 1rem;
+  margin-top: 0.25rem;
+  color: var(--text-1);
+  font-size: 0.78rem;
+
+  time {
+    color: inherit;
+  }
+}
+
+.talk-link {
+  @extend %quiet-link;
+  color: var(--primary-color);
+
+  &:hover {
+    color: var(--text-0);
+  }
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--primary-color);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  &::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    animation: badge-pulse 2s ease-in-out infinite;
+  }
+}
+
+@keyframes badge-pulse {
+  50% {
+    opacity: 0.3;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .badge::before {
+    animation: none;
+  }
+}
+
+/* Single talk page */
+
+.back {
+  @extend %quiet-link;
+  display: inline-block;
+  margin-top: 2.5rem;
+  color: var(--text-1);
+  font-size: 0.8rem;
+}
+
+.talk-page .page-header {
+  margin-top: 1rem;
+}
+
+.talk-page-title {
+  margin: 0 0 0.4rem;
+  font-family: var(--header-font);
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+
+.talk-page-meta {
+  margin-bottom: 1.5rem;
+  font-size: 0.85rem;
+}
+
+/* Small screens */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+@media (max-width: 640px) {
+  .home {
+    margin-top: 1.5rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .hero-photo {
+    width: 96px;
+    height: 96px;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-name {
+    font-size: 2rem;
+  }
+
+  .hero-bio {
+    font-size: 0.9rem;
+  }
+
+  .roles {
+    gap: 1rem;
+    margin: 1.25rem 0 0.75rem;
+  }
+
+  .role img {
+    height: calc(var(--logo-h) * 0.8);
+  }
+
+  .role-logo {
+    height: 46px;
+  }
+
+  .hero-socials {
+    gap: 1.25rem;
+  }
+
+  .block-title {
+    margin-top: 2.75rem;
+  }
+
+  .talk {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+    padding: 0.9rem 0;
+
+    > time {
+      padding-top: 0;
+    }
+  }
+
+  .talk-meta {
+    row-gap: 0.2rem;
+  }
+
+  .talk-link {
+    padding: 0.2rem 0;
+  }
+
+  .talk-page .page-header {
+    font-size: 2rem;
+  }
+
+  .talk-page-title {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .roles {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}

@@ -1,0 +1,57 @@
+{% component talks.when(page: map) %}
+{%- if page.extra?.date_label -%}
+    {{ page.extra.date_label }}
+{%- else -%}
+    {{ page.date | date(format="%b %-d, %Y") }}
+{%- endif -%}
+{% endcomponent talks.when %}
+
+{% component talks.links(page: map) %}
+{%- if page.extra?.slides %}<a class="talk-link" href="{{ page.extra.slides }}" target="_blank" rel="noopener noreferrer">slides ↗</a>{% endif -%}
+{%- if page.extra?.pdf %}<a class="talk-link" href="{{ page.extra.pdf }}" target="_blank" rel="noopener noreferrer">pdf ↗</a>{% endif -%}
+{%- if page.extra?.event_url %}<a class="talk-link" href="{{ page.extra.event_url }}" target="_blank" rel="noopener noreferrer">event ↗</a>{% endif -%}
+{% endcomponent talks.links %}
+
+{% component talks.card(page: map) %}
+<li class="talk">
+    <time datetime="{{ page.date }}">{{<talks.when page={page} />}}</time>
+    <div class="talk-body">
+        <div class="talk-head">
+            <a class="talk-event" href="{{ page.permalink | safe }}">{{ page.title }}</a>
+            {% if page.extra?.upcoming %}<span class="badge">upcoming</span>{% endif %}
+        </div>
+        {% if page.extra?.talk %}<div class="talk-title">{{ page.extra.talk }}</div>{% endif %}
+        <div class="talk-meta">
+            {% if page.extra?.location %}<span>{{ page.extra.location }}</span>{% endif %}
+            {{<talks.links page={page} />}}
+        </div>
+    </div>
+</li>
+{% endcomponent talks.card %}
+
+{% component talks.lists(pages: array) %}
+{% set upcoming = [p for p in pages if p.extra?.upcoming] %}
+{% set past = [p for p in pages if not p.extra?.upcoming] %}
+
+{% if upcoming | length > 0 %}
+    <section class="talks-block">
+        <h2 class="block-title">Upcoming talks</h2>
+        <ul class="talks">
+            {% for p in upcoming %}
+                {{<talks.card page={p} />}}
+            {% endfor %}
+        </ul>
+    </section>
+{% endif %}
+
+{% if past | length > 0 %}
+    <section class="talks-block">
+        <h2 class="block-title">Past talks</h2>
+        <ul class="talks">
+            {% for p in past %}
+                {{<talks.card page={p} />}}
+            {% endfor %}
+        </ul>
+    </section>
+{% endif %}
+{% endcomponent talks.lists %}

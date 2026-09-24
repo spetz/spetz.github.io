@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+    <main class="talks-page">
+        <div class="page-header">{{ section.title }}<span class="primary-color">.</span></div>
+        {% if section.description %}<p class="talks-intro">{{ section.description }}</p>{% endif %}
+
+        {{<talks.lists pages={section.pages} />}}
+    </main>
+{% endblock main_content %}

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+    {% set talks_section = get_section(path="posts/_index.md") %}
+
+    <main class="home">
+        <section class="hero">
+            <img class="hero-photo"
+                 src="{{ get_url(path='img/piotr.jpg') }}"
+                 alt="Piotr Gankiewicz"
+                 width="112"
+                 height="112" />
+
+            <div class="hero-text">
+                <div class="hero-name">Piotr Gankiewicz<span class="primary-color">.</span></div>
+                <p class="hero-bio">
+                    Founder &amp; CTO of <a href="https://laserdata.com" target="_blank" rel="noopener noreferrer">LaserData</a>,
+                    <a href="https://iggy.apache.org" target="_blank" rel="noopener noreferrer">Apache Iggy</a> PMC, and its original creator.
+                    Building the next-gen, sub-millisecond latency message streaming infrastructure.
+                </p>
+
+                <div class="roles">
+                    {% for role in config.extra.roles %}
+                        <a class="role" href="{{ role.url }}" target="_blank" rel="noopener noreferrer" style="--logo-h: {{ role.logo_height }}px">
+                            <span class="role-logo">
+                                <img class="only-light" alt="{{ role.org }}" src="{{ get_url(path=role.logo_light) }}" />
+                                <img class="only-dark" alt="{{ role.org }}" src="{{ get_url(path=role.logo_dark) }}" />
+                            </span>
+                            <span class="role-title">{{ role.title }}</span>
+                        </a>
+                    {% endfor %}
+                </div>
+
+                <div class="hero-socials">
+                    {% for social in config.extra.socials %}
+                        <a class="hero-link" rel="me noopener noreferrer" href="{{ social.url }}" target="_blank">
+                            <img alt="" src="{{ get_url(path='icons/social/' ~ social.icon ~ '.svg') }}" />
+                            <span>{{ social.name }}</span>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        {{<talks.lists pages={talks_section.pages} />}}
+    </main>
+{% endblock main_content %}

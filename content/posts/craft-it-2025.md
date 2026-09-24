@@ -1,12 +1,16 @@
 +++
 title = "Craft-IT 2025"
 date = "2025-05-31"
-author = "Piotr Gankiewicz"
+authors = ["Piotr Gankiewicz"]
+
+[extra]
+talk = "Let's build our own message streaming platform"
+event_url = "https://craft-it.pl/#session-216"
+slides = "https://slides.com/piotrgankiewicz/craft-it-2025"
 +++
 
 The links from my talk at [Craft-IT 2025](https://craft-it.pl/#session-216).
 
-- [slides](https://slides.com/piotrgankiewicz/craft-it-2025)
 - [discord](https://discord.gg/C5Sux5NcRa) community
 - [apache/iggy](https://github.com/apache/iggy/) repository
 - [iggy-rs](https://github.com/iggy-rs/) organization, moving to ASF monorepo
